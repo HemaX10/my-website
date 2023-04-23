@@ -79,9 +79,7 @@ hr{
 
 .copyrights{
     color: #EAF6F6 ;
-    position: absolute;
-    top: 100px;
-    left: 350px;
+    margin-top: 80px;
 }
 
 .bottom-container{
@@ -96,22 +94,17 @@ hr{
     top: 50px;
     font-size: medium;
 }
-
-.footer-link2{
-    color:#11999E;
-    position: absolute;
-    left: 400px;
-    top: 50px;
-    font-size: medium;
+a{
+    font-family: 'montserrat' , sans-serif ;
+    margin: 10px 20px;
+    text-decoration: none;
+    color: #11999E;
+    font-size: 1em;
+}
+a:hover {
+    color: #EAF6F6;
 }
 
-.footer-link3{
-    color:#11999E;
-    position: absolute;
-    left: 500px;
-    top: 50px;
-    font-size: medium;
-}
 
 .bottom-container{
     background-color: rgb(181, 237, 245);
@@ -154,12 +147,4 @@ hr{
 .contact-massage{
     width: 30%;
     margin: 40px auto 60px;
-}
-
-a{
-    text-decoration: none;
-}
-
-a:hover {
-    color: #EAF6F6;
 }
